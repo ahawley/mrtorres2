@@ -1,5 +1,5 @@
 body{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: sans-serif;
     color: #CC99FF;
     text-align: center;
 }
@@ -7,6 +7,9 @@ body{
     width: 800px;
     height: 400px;
     margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
 }
 #morning {
     background-image: url('../images/morning.png');
@@ -14,10 +17,24 @@ body{
 }
 #evening{
     background-image: url('../images/evening.png');
+    border: 4px solid #CC99FF;
 }
 #night{
     background-image: url('../images/night.png');
+    border: 4px solid #CC99FF;
 }
 #day{
-    background-image: url('../simages/day.png');
+    background-image: url('../images/day.png');
+    border: 4px solid #CC99FF;
+}
+#white{
+    margin:auto;
+    width: 400px;
+    height: 100px;
+    background-color:white;
+    opacity: 0.8;
+    margin-top:130px;
+}
+h1{
+    padding-top:30px;
 }
